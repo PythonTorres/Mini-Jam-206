@@ -6,6 +6,7 @@
 !/Assets/
 !/ProjectSettings/
 !/Packages/
+!README.md
 
 # Внутри Assets — только скрипты и сцены (без ассетов)
 /Assets/*
