@@ -1,0 +1,23 @@
+# Всё игнорируем по умолчанию
+/*
+
+# Кроме нужного
+!/.gitignore
+!/Assets/
+!/ProjectSettings/
+!/Packages/
+
+# Внутри Assets — только скрипты и сцены (без ассетов)
+/Assets/*
+!/Assets/Scripts/
+!/Assets/Scenes/
+
+# Исключаем бинарь и мусор Unity
+/Assets/**/*.meta
+/Library/
+/Temp/
+/Logs/
+/obj/
+/Build/
+/Builds/
+/UserSettings/
